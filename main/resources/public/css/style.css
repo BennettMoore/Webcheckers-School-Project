@@ -1,0 +1,218 @@
+body {
+  background: #3f5845;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: #2677FF;
+}
+
+a:hover {
+  color: #333;
+}
+
+a[disabled] {
+  color: gray;
+  cursor: default;
+}
+
+form#signout {
+  display: inline;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: white;
+  border: 1px solid #6E7DAB;
+  padding: 5px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  color: #6E7DAB;
+  margin-bottom: 10px;
+
+}
+
+input[type="submit"]:not(.inbutton) {
+  background: #6E7DAB;
+  border: 1px solid #6E7DAB;
+  padding: 8px 11px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: white;
+}
+
+input[type="submit"].inbutton {
+  padding: 9px;
+  margin-right: 0.25em;
+  font-size: smaller;
+  cursor: pointer;
+  background-color: #c5cde3;
+  border-color: #6E7DAB;
+  border-radius: 7px;
+}
+
+div.page {
+  background: white;
+  width: 710px;
+  margin: 30px auto;
+}
+
+div.page h1 {
+  background: #4c300e;
+  margin: 0;
+  padding: 10px 14px;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0 0 3px #2477FF;
+  font-weight: normal;
+}
+div.page h2 {
+  margin: 0;
+  padding: 10px 14px;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0 0 3px #2477FF;
+  font-weight: normal;
+}
+
+div.page div.navigation {
+  background: #DEE9FF;
+  padding: 4px 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+div.page div.navigation a {
+  color: #444;
+  font-weight: bold;
+}
+
+div.page h2 {
+  margin: 0.5em 0 0.25em 0;
+  color: #1057FF;
+  text-shadow: 0 1px 2px #ccc;
+}
+
+div.page div.body {
+  padding: 10px;
+}
+
+div.page div.footer {
+  background: #eee;
+  color: #888;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/**
+ * The styling of a Message with an ERROR type.
+ */
+div.ERROR {
+  margin: 10px 0;
+  background: #FAE4E4;
+  border: 1px solid #DD6F6F;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 4px;
+  font-size: 13px;
+}
+
+/**
+ * The styling of a Message with an INFO type.
+ */
+div.INFO {
+  margin: 10px 0;
+  background: #c5cde3;
+  filter: brightness(115%);
+  border: 1px solid #6E7DAB;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 4px;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+button {
+  padding: 9px;
+  margin-right: 0.25em;
+  font-size: smaller;
+  cursor: pointer;
+  background-color: #CAECFF;
+  border-color: #6E7DAB;
+  border-radius: 7px;
+}
+button.player {
+  padding: 9px;
+  margin-right: 0.25em;
+  font-size: smaller;
+  cursor: pointer;
+  background-color: #CAECFF;
+  border-color: #6E7DAB;
+  border-radius: 7px;
+}
+button.game {
+  padding: 9px;
+  margin-right: 0.25em;
+  font-size: smaller;
+  cursor: pointer;
+  background-color: #CAECFF;
+  border-color: #6E7DAB;
+  border-radius: 7px;
+}
+
+/* Formatting the home page signed in users list */
+ul.signedInUsers li {
+    min-height: 30px;
+}
+ul.signedInUsers li form {
+    display: inline-block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.logo {
+  width: 40%;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #6E7DAB;
+}
+
+.button1:hover {
+  background-color: #6E7DAB;
+  color: white;
+}
