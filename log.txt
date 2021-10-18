@@ -1,0 +1,810 @@
+commit 99aa668501ed7a70cba9501ffbc3c7ea081e895c
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Mon Apr 26 20:45:03 2021 -0400
+
+    Fix auto-refresh not working
+
+commit d251d3c2353a5946e7da9ec8a6c33e7290f760a5
+Merge: 2a1541f c321f75
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Mon Apr 26 20:44:56 2021 -0400
+
+    Merge remote-tracking branch 'origin/style-updates'
+
+commit c321f7522842efdc8f434a3997f5f54ec91fd71a
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 25 16:09:17 2021 -0400
+
+    Made the buttons/info box more muted to complement main theme
+
+commit 2a1541fc939b04931a364507e14e001fa0b71a9f
+Author: user.email <kmk8334@rit.edu>
+Date:   Thu Apr 22 03:14:47 2021 -0400
+
+    Remove Play button allowing users to challenge themselves to a game
+
+commit fdd43ee29d22f61d2b782c58681f0653716433b0
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 20 17:46:33 2021 -0400
+
+    Adjusted sign-in page styling
+
+commit 4a3160848c82045c35e1bdd11027f375b180105a
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 20 17:20:51 2021 -0400
+
+    Corrected typo
+
+commit 8772c8c30fc832a629af8cbcdebcfd352f83030e
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 20 17:18:48 2021 -0400
+
+    Stylized buttons for Home and Sign Out
+
+commit 90292b497e1935b791fa3418c8173d153e13e32a
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 20 17:07:15 2021 -0400
+
+    Adjusted styling
+
+commit ebd1a907cfd6eb13500870b6c55033dd1c213ef3
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Sun Apr 18 19:31:32 2021 -0400
+
+    Fixed IndexOutofBoundException in Board.getPieceAtPosition and added documentation to explain the fix
+
+commit 10e765353ebecfcaad6451543686dfca71cfc748
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 18 19:25:40 2021 -0400
+
+    Made the favicon carry through all pages
+
+commit 90a083e3980f7c334bd3cd4582df03efcfabe523
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 18 19:21:54 2021 -0400
+
+    Adjusted logo and removed second sign-in button from sign-in page
+
+commit f29942866c247dd6a485c6b347f640976d27e9e3
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 18 19:13:53 2021 -0400
+
+    Updated styling and added Logo and Favicon
+
+commit d4d6b5bcb32caf30f4298d4bee97f7a4db3ae6b4
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 15 12:45:35 2021 -0400
+
+    Fix spectator auto-refresh
+
+commit 1cf4c7cd30612996d34922912d6dc7a15f1b20df
+Merge: eade4cf 6ca7a4f
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Thu Apr 15 14:17:38 2021 -0400
+
+    Merge pull request #7 from RIT-SWEN-261-05/check-turn
+    
+    added path for spectator check and implement chat log
+
+commit 6ca7a4f7c9e54b374fad44fe3fd549ee165c9d5e
+Merge: fa153ba eade4cf
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Thu Apr 15 14:17:29 2021 -0400
+
+    Merge branch 'master' into check-turn
+
+commit eade4cfb0b646fbd1569ead2951340d71e6a0597
+Author: user.email <kmk8334@rit.edu>
+Date:   Thu Apr 15 14:07:12 2021 -0400
+
+    Promote white pieces to kings
+
+commit ca4a010d1c376e7b5b9950f579fea93ddfffce7f
+Author: user.email <kmk8334@rit.edu>
+Date:   Thu Apr 15 13:41:50 2021 -0400
+
+    Fix bug with Kinged checkers move validation
+
+commit fa153baeaf56f35f8dbcdb6b19efe0207794608a
+Merge: 0ef0eec 5c69bdd
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Thu Apr 15 12:25:33 2021 -0400
+
+    Merge branch 'check-turn' of https://github.com/RIT-SWEN-261-05/team-project-2205-swen-261-05s1-b into check-turn
+
+commit 0ef0eec399561c1ce49f52cf43bbc05f7078e73a
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Thu Apr 15 12:24:18 2021 -0400
+
+    refreshes spectator
+
+commit 34e4f083eff57d467c4a835a9a4ad2268b8417ba
+Merge: 53a0641 095af18
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Thu Apr 15 11:59:11 2021 -0400
+
+    Merge pull request #9 from RIT-SWEN-261-05/name-limit
+    
+    Implement 32 character name limit
+
+commit 53a06417320a0898639b1033f76330ff20e95191
+Merge: 741b6c9 c654f7e
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Thu Apr 15 11:58:54 2021 -0400
+
+    Merge pull request #8 from RIT-SWEN-261-05/kinged-checker
+    
+    Add kinged checkers
+
+commit 741b6c950024c398d5514b9772c31e4bc6993894
+Merge: fdac2df 1259436
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Thu Apr 15 11:58:26 2021 -0400
+
+    Merge pull request #6 from RIT-SWEN-261-05/jumping-pieces-rebased
+    
+    Add jumping
+
+commit 12594363e76d445d8e7578d3fb9df6db1e4eaeaa
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Wed Apr 14 18:43:43 2021 -0400
+
+    Fix compile error
+
+commit f81caab7f9ddc080c02bbca2d3a14e5926ddbfae
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Fri Apr 9 11:02:37 2021 -0400
+
+    Makeshift multi-jump capability implemented. Jump has full functionality, but the player must confirm their turn each time they make a jump. Encountered unrelated bug when moving piece to the bottom-right corner of the board, but haven't fixed it.
+
+commit 1894210316542262c69f7972e5e6e9cd30900c18
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Thu Apr 8 18:19:51 2021 -0400
+
+    applyMove now restricts movement whenever a possible jump are detected, and modified BoardTest.java to properly test this functionality. Currently only works for single jumps.
+
+commit 58be08f277b6c97114283fca3f51620b905ff1e0
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Tue Apr 6 20:36:07 2021 -0400
+
+    Added proper testing for single-jump code.
+
+commit 0530796c008451e242329dc55319b180da793831
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Tue Apr 6 19:00:19 2021 -0400
+
+    Pieces can now successfully make single jump moves which capture enemy pieces. Also added more documentation to relevant areas.
+
+commit 96224580ee62a93c40eed841e11c58de2eac6c6f
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Fri Apr 2 00:09:33 2021 -0400
+
+    Allowed pieces to perform a single jump move, but not actually capture the enemy piece they jump over.
+
+commit ca06de274ddaab0665ae4a4d9e5435e154e63b8d
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 21:36:05 2021 -0400
+
+    Transmit pieces to client
+
+commit 5c69bdd7073842dae39263ffdec7fa770aaf976c
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Apr 13 17:51:28 2021 -0400
+
+    Have GetGameRoute set activeColor correctly.
+    
+    This fixes the game not automatically refreshing, and disables player
+    movement if it's not their turn.
+
+commit fdac2dfc2b3469d57ea00f860bb9cfdf662834de
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Apr 13 17:42:31 2021 -0400
+
+    Fix white player's name not being set to "You"
+
+commit c654f7e2a968b9f61bd9ca1d68b9649cf170cdf4
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 13 17:19:36 2021 -0400
+
+    Removed redundant code and added comments
+
+commit fb702788d8a527f2dd3bbaf4445b3dbe269cb41f
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 11 16:02:40 2021 -0400
+
+    Added proper piece promotion functionality
+
+commit 5fb49484a9e6ad0f2655a0d8db2ef497c57cbe72
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Apr 11 15:02:45 2021 -0400
+
+    Added some piece promotion functions
+
+commit 095af18959c46292da695ae4c3a589541e48e653
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 8 17:25:16 2021 -0400
+
+    Implement 32 character name limit
+
+commit f54c2cdac02877cf8ab50e75d8e40a90eeda1539
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Thu Apr 8 00:50:09 2021 -0400
+
+    chat log implemented
+
+commit c2699b5866e65589f9fec39e02e633a6c44c7db9
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Apr 6 17:19:39 2021 -0400
+
+    Fixed an error where the piece representing a turn was movable
+
+commit f995ca32eda2896fc9a6188289c1852028920092
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Apr 6 14:23:13 2021 -0400
+
+    added path for spectator check
+
+commit a31c652a8311ad1a1d50aa063cb9bb2148a5279d
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Sun Apr 4 23:09:49 2021 -0400
+
+    docs
+
+commit 441f199d9927b8e715e1243695f93c23e54aa94c
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Fri Apr 2 00:21:52 2021 -0400
+
+    Implement board flipping
+
+commit 8ec07f84b90ee800060692e3df6a75e412285b62
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 23:08:37 2021 -0400
+
+    Rename PostDeleteGame to PostResignGame
+
+commit cfa0084515d33313fc8fd5f2952af2f6139eb491
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 23:08:05 2021 -0400
+
+    Fix some TODOs and latent bugs
+
+commit 81dc96938746872f615f8be40b967d9d039ddd73
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 21:48:07 2021 -0400
+
+    Add backup move
+
+commit c7800aaf71a468d0fa936806089627764ab31998
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 23:40:59 2021 -0400
+
+    Transmit pieces to client
+
+commit 00d9fa8444b223b86a572a5dbed91a67dbe491e5
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 21:01:32 2021 -0400
+
+    Implement submit turn route
+
+commit d2323d17003124d2c8308395306b0ab96ff24c66
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 20:44:35 2021 -0400
+
+    Implement current-turn checking
+
+commit 059892fd048b0c9ff42dc88d7a55add939f53c4d
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Apr 1 20:32:12 2021 -0400
+
+    Make the JS-provided buttons actually work
+
+commit dc1202834f932d0e261c9047ba8cf706f877a717
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Mar 30 20:07:43 2021 -0400
+
+    Removed comments from designDoc
+
+commit 5ccd15d8eaef06bc81b5ca2cb29babe62e059b12
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 19:33:42 2021 -0400
+
+    Update the design docs
+
+commit 0f6e6f33016396ad39c82c79eecdf8614ce23c9e
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 19:02:51 2021 -0400
+
+    Add test tags
+
+commit f608893e4047e61c9dda46456709fca4dd096d96
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 18:32:42 2021 -0400
+
+    Implement PlayerServiceTest
+
+commit 7a44ae67413b5819e53465bc921c6f9067180da8
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Mar 30 18:25:12 2021 -0400
+
+    Updated DesignDoc
+
+commit 1f98b35b1aafd9ea36a4c2f74f3c0c2d0ddbff55
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 18:00:07 2021 -0400
+
+    fix broken test in GameTest.java
+
+commit 1f0049e44b8982d59b139bf5d78b182dd4736ce4
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 17:44:21 2021 -0400
+
+    Correct compile error
+
+commit 11f697b0221d8d973b1a62e037371c856437cff3
+Merge: 581fbd1 e9a19b1
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 17:43:08 2021 -0400
+
+    Merge branch 'MoveMechanics'
+
+commit 581fbd190f2609392ac528b61eb32ec3cd117231
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 17:39:40 2021 -0400
+
+    Correct build errors
+
+commit e9a19b101c8a3db38892a23bbb759a36e01fc47b
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Mar 30 17:36:51 2021 -0400
+
+    Created GameId test
+
+commit 638712e7438ea43ecc0c78545ac4928da5d3a970
+Merge: c11fe41 057a1cf
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 17:30:29 2021 -0400
+
+    Merge branch 'auto-join'
+
+commit c11fe4136e678ee16a1a347e2052cc5fa9573154
+Merge: 0ee5399 5b0e982
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 30 17:29:41 2021 -0400
+
+    Merge branch 'game-service-todo'
+
+commit 5b0e9821afe3adabfe0e9ca52a25b55f6a14e546
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 30 16:40:47 2021 -0400
+
+    resign button create and enter games
+
+commit c4c29098b24f993acb48d2dbd0067e68a2899150
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 29 19:14:50 2021 -0400
+
+    Added Documentation & Comments
+
+commit 27528c30054d1beebb0e909d55eb662e88681712
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 29 19:04:50 2021 -0400
+
+    Added a catch for if a piece is placed on a white square
+
+commit 9baa60ccdc4891af4d457182e9723545f4a1e936
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 29 18:55:55 2021 -0400
+
+    Added in Gson and Json Object functionality
+
+commit c3a80680a1608b717e7c6669b095eef587808819
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 29 17:10:13 2021 -0400
+
+    Added in message functionality
+
+commit b17b820fd19b8c78374f9aea24d6c2189dfb4706
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 29 16:38:03 2021 -0400
+
+    Implemented the board into move validation
+
+commit 7c2ad0246ad7d4a80186ef7d1598d0b046a8de18
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Mar 28 19:11:05 2021 -0400
+
+    Began PostValidateMove route, and added a position class
+
+commit 057a1cf28635fe29415061f645e63e0262960cb6
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Sat Mar 27 20:40:52 2021 -0400
+
+    Redirect to the homepage if the user is accessing /game without being signed in
+
+commit 2196d021cfe91098b20eccde9d9f477ff7d7109d
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Sat Mar 27 20:32:02 2021 -0400
+
+    Automatically redirect users to a game from the homepage if they're in a game
+
+commit 44c39e8eb0778a1fec1e2397f3dfcfe76d41b50a
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Sat Mar 27 20:25:46 2021 -0400
+
+    Use Optional for GameService methods
+
+commit fa8ac54438e0919b063762090d0d43e07ef0a1a3
+Merge: 7d5705b 0ee5399
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Sat Mar 27 20:12:15 2021 -0400
+
+    Merge branch 'master' into auto-join
+
+commit 0ee539944245f5942f328ca358194790b9e9d1a8
+Author: user.email <kmk8334@rit.edu>
+Date:   Fri Mar 26 15:10:21 2021 -0400
+
+    Fix bug that was making all players spectators
+
+commit 7d5705ba5e1a6460ecdee363212733d1513bd4f8
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Thu Mar 25 23:22:01 2021 -0400
+
+    games being created correctly
+
+commit e6ccc15fcab1fd08797dc4e5ae41a527fc37a7a5
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 19:39:43 2021 -0400
+
+    Fix BoardTester pieceValidation test
+
+commit 18d6f36035955ccd947d0b20dd84fb1cb6415453
+Merge: 3184bf6 61adeb4
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Tue Mar 23 19:32:16 2021 -0400
+
+    Merge pull request #4 from RIT-SWEN-261-05/unitTest-username
+    
+    Create unit tests for Username.java (not sign-in tests)
+
+commit 3184bf66b7707470d6d922eed1d92248bb6193cf
+Merge: 16397bd e0ec0bd
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Tue Mar 23 19:31:13 2021 -0400
+
+    Merge pull request #2 from RIT-SWEN-261-05/move-datastructure
+    
+    Implement the basic move and board datastructure
+
+commit 16397bdb1f75bae26e7d8b00d784f41d70721d51
+Merge: ce5a0cb 1aba122
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Tue Mar 23 19:20:47 2021 -0400
+
+    Merge pull request #3 from RIT-SWEN-261-05/board-dataType
+    
+    Board data type
+
+commit ce5a0cbd3c7308f5d77f4b119d481e0121e137ff
+Merge: e6428a1 2afca4d
+Author: Kevin Kulp <42919467+kmk8334@users.noreply.github.com>
+Date:   Tue Mar 23 19:19:56 2021 -0400
+
+    Merge pull request #5 from RIT-SWEN-261-05/game-service-todo
+    
+    Game service todo
+
+commit 2afca4df885d547ac23b7f2aea0a312c9fde7f66
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 23 19:17:40 2021 -0400
+
+    fixed errors
+
+commit e6428a1ea03ded45611ccbfbee1bfe8a74e66fc4
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 18:38:51 2021 -0400
+
+    Add -e -X to mvn test CI
+
+commit e0ec0bdd7413cc3c27909c60ef1167f19c2a8eba
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 18:27:58 2021 -0400
+
+    Document tests and add equals test
+
+commit 5227775a6f76d2eb847525d8ec3a65c0bae2ea21
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 18:19:11 2021 -0400
+
+    Add board tests
+
+commit 61adeb49601a49871efbaf37bceddd79b5c87a4c
+Author: user.email <kmk8334@rit.edu>
+Date:   Tue Mar 23 17:59:13 2021 -0400
+
+    Create unit tests for Username.java (not signing in)
+
+commit 5a5f4da8877ca6bcb6c272858e34bfe9c880c956
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 23 17:57:50 2021 -0400
+
+    uncommented getCreatedGameIds test
+
+commit 1760475a99b61c63d920157cee98c857eee45ade
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 23 17:56:42 2021 -0400
+
+    added equals test
+
+commit 1da102da491b943ea341d6f4bb05ef4089fd935b
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 17:37:18 2021 -0400
+
+    Add more tests to Piece
+
+commit ca29ff014e7bb69a8587de04c048562348b594be
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 23 17:25:54 2021 -0400
+
+    added tests
+
+commit b4015257d732445e466e7af117069da5f9fc473c
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 23 01:59:16 2021 -0400
+
+    documentation!
+
+commit f4b5a57f5482bc7901fb93468685d30c26e1d04c
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 22 19:33:30 2021 -0400
+
+    Added DomainModel png and Domain Analysis in DesignDoc
+
+commit 1aba122df6de578f00ed0cfc9f51c3f1dedeeb1e
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 22 15:45:20 2021 -0400
+
+    Added RowTest to test for proper GetIndex usage
+
+commit b5f734d3dfaa550ee1887df5411ab2d6611eba9d
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Mon Mar 22 14:24:40 2021 -0400
+
+    Added PieceTest and SpaceTest Test files, and made a minor optimization to isValid() in Space.
+
+commit 3972f9ef6b75c696bb89c68f377e9af2a6befcc0
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Mar 21 20:26:53 2021 -0400
+
+    Added BoardView and RowTest Test Files
+
+commit 575d0845b47e3b73759e9923060b01ed2593eac4
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Sun Mar 21 19:49:33 2021 -0400
+
+    Added to the Design Doc and uploaded the new State Diagram
+
+commit 5128ba51e85a04bcb09dbed0f4c32e73c96b3501
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Sun Mar 21 14:41:43 2021 -0400
+
+    Player One in game
+
+commit 9b52eb0a890c841ee5b4df7fff608c1e96054e7a
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Fri Mar 19 00:55:29 2021 -0400
+
+    Add piece movement tests
+
+commit db1e85e8d43e7b648a55663a6dc88099e79a67d6
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Mar 18 23:58:22 2021 -0400
+
+    Implement very rough version of move datastructure
+
+commit 29323f7451111ae4a745284bd85df51497d1904b
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Wed Mar 17 20:06:15 2021 -0400
+
+    deleted classes
+
+commit d737da9f9459a168ae87aea599e8b54e04838e78
+Merge: f56812e 03b19cf
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Tue Mar 16 19:08:36 2021 -0400
+
+    merge to pull
+
+commit 012bdaed70bd3d0b129fbd96f3e61a25133a98f6
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 16 17:44:43 2021 -0400
+
+    Add a bit more signin documentation
+
+commit 03b19cf8a2399cf44cc665c865ee601cebd66640
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Mon Mar 15 02:41:38 2021 -0400
+
+    Add TODO tags for improving the game service
+
+commit 11aecd6b86304e4f8cdc97d28b24ee61fc1772a6
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 16 17:39:44 2021 -0400
+
+    Document the signin code
+
+commit c68e6d7b10601bf92fff3d408033adc256616bff
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 16 17:20:03 2021 -0400
+
+    Rename references to 'User' to 'Player'
+
+commit f56812e1c115f7f530e9e486694422e5d9383e18
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Mon Mar 15 02:41:38 2021 -0400
+
+    Add TODO tags for improving the game service
+
+commit 8e1af45102f449b9c3c516c3479068f1974f06f8
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Mar 11 19:23:36 2021 -0500
+
+    Update acceptance test plan
+
+commit db803f21b33db612a3ff095e66808eaccc33c011
+Merge: 7802f6d 081e2ba
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Mar 11 17:59:28 2021 -0500
+
+    Merge remote-tracking branch 'origin/board-dataType'
+
+commit 7802f6d0e459cc606e22d5343b21f7f7dd0dd6f2
+Merge: 34adb88 371ed0f
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Mar 11 17:04:45 2021 -0500
+
+    Merge branch 'board-dataType'
+
+commit 34adb8842159a8c9fb62a61d564bf5912f237b7d
+Merge: 0829eea dd40ec5
+Author: LandonHeatly <lbh1442@g.rit.edu>
+Date:   Thu Mar 11 17:02:08 2021 -0500
+
+    game page
+
+commit 081e2ba7f982c4e38ce2f8ef9f1d931de49b9417
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Wed Mar 10 15:42:46 2021 -0500
+
+    Removed redundant code and added Comments
+
+commit 7da4c8a6265a43fb9ba28e37c6299cc663f6e122
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Wed Mar 10 15:38:49 2021 -0500
+
+    Added BoardView Functionality and proper starting positions for pieces
+
+commit 371ed0f6d5a5df6713de17499bacc96b2f41669f
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Tue Mar 9 17:15:05 2021 -0500
+
+    Added comments and documentation
+
+commit dd40ec5a2b3869bdba5cf1c646d6fb2a6fce066a
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 9 01:44:52 2021 -0500
+
+    Display signed-in users on the homepage
+
+commit 4d6b8827f48d9ba80d4197a1dd0d31a0a365d971
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 9 00:51:47 2021 -0500
+
+    Add sign-out functionality
+
+commit 5c862e715aa52db3466941bb9cd62e4bef844362
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Tue Mar 9 00:40:25 2021 -0500
+
+    Display username on homepage once signed in
+
+commit a903ad53699bf898a7af7156f42df00411c1e3e7
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 8 18:07:18 2021 -0500
+
+    Added starting piece positions to game.ftl
+
+commit 87d3a58e1568853484682e5beeeed717e89555ca
+Merge: 25b451a 0829eea
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 8 18:05:18 2021 -0500
+
+    Merge branch 'gameplay-page' into board-dataType
+
+commit 25b451aaeefa3bf086e0b79cc70c7ec7f5b98f65
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 8 18:00:09 2021 -0500
+
+    Began Board Data Type Implementation & Displayed Checkers in Starting Position
+
+commit 0829eeae09b7a5a07827f3638f5c893837d238c5
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 8 17:52:16 2021 -0500
+
+    Revert "Began Implementation of Checker Board Data Structures & Checker Images"
+    
+    This reverts commit 3572775eca33cb71fe37e9070e8804c9d305edb0.
+
+commit 3572775eca33cb71fe37e9070e8804c9d305edb0
+Author: Matthew Glanz <msg4061@rit.edu>
+Date:   Mon Mar 8 17:15:02 2021 -0500
+
+    Began Implementation of Checker Board Data Structures & Checker Images
+
+commit c810ff5f75c67da4983956110c39b4b575370461
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Fri Mar 5 01:45:26 2021 -0500
+
+    Add ability to register a user with GET/POST /signin
+
+commit 79ead86a983dbdb28c6397bcaf9d2f3239b5291a
+Author: user.email <kmk8334@rit.edu>
+Date:   Thu Mar 4 21:02:51 2021 -0500
+
+    Set up the basics for GET /game
+
+commit 0a0cb2b6e32275cab5c87e095273b86f0ec5e17a
+Author: hdm2845 <69934528+hdm2845@users.noreply.github.com>
+Date:   Sun Feb 28 19:16:47 2021 -0500
+
+    Add Github Actions Automated Testing (#1)
+
+commit 09224a603b7d8011c1aa211a28f74ad7554443ea
+Author: Bennett <bwm7637@g.rit.edu>
+Date:   Thu Feb 25 18:22:17 2021 -0500
+
+    Added Bennett Moore to list of names in README.md
+
+commit b85f1797fe40043a0912fff75975094d59a3f056
+Author: LandonHeatly <41384496+LandonHeatly@users.noreply.github.com>
+Date:   Thu Feb 25 18:15:47 2021 -0500
+
+    Landon Heatly team member 3
+
+commit cac14abcd3f89daaa657f7eb493e0de07f82742b
+Author: Matthew Glanz <matthewglanz@gmail.com>
+Date:   Thu Feb 25 17:55:19 2021 -0500
+
+    Add Matthew's name to README.md
+
+commit f93a434399b566c017843166387258f8cc481009
+Author: Kevin Kulp <kmk8334@rit.edu>
+Date:   Thu Feb 25 17:53:37 2021 -0500
+
+    Add Kevin's name to README.md
+
+commit 722778301175f1741c8f6b603475b09450ce4223
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Feb 25 17:43:46 2021 -0500
+
+    Add Aubrey's name to README.md
+
+commit bf07f1c7ffbbd05de32c75ac1cbd18fdfafa73f4
+Author: Aubrey Marcsisin <arm@mail.rit.edu>
+Date:   Thu Feb 25 17:42:56 2021 -0500
+
+    Revert "Add team members to README.md"
+    
+    This reverts commit bb4d57bd5d8247417b828ad2413bdc0f2d2722dc.
+
+commit bb4d57bd5d8247417b828ad2413bdc0f2d2722dc
+Author: hdm2845 <69934528+hdm2845@users.noreply.github.com>
+Date:   Thu Feb 25 17:07:56 2021 -0500
+
+    Add team members to README.md
+
+commit 13ae0356888db9ea359e8dab2d6176925ff38516
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Feb 25 22:01:38 2021 +0000
+
+    Initial commit
